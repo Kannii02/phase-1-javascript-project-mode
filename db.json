@@ -1,0 +1,66 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Personal Trainer",
+      "description": "Fitness coaching & meal planning.",
+      "category": "Fitness",
+      "price": 50,
+      "location": "Los Angeles, CA",
+      "availability": [
+        "Monday 10AM-12PM",
+        "Wednesday 2PM-4PM"
+      ],
+      "contact": "trainer@email.com"
+    },
+    {
+      "id": "2",
+      "title": "Dog Walker",
+      "description": "Daily dog walking for busy pet owners.",
+      "category": "Pet Care",
+      "price": 20,
+      "location": "New York, NY",
+      "availability": [
+        "Tuesday 9AM-11AM",
+        "Thursday 5PM-7PM"
+      ],
+      "contact": "dogwalker@email.com"
+    },
+    {
+      "id": "6b5d",
+      "title": "Clothes Service",
+      "description": "Laundry, dry cleaning, alterations & tailoring with easy home pickup & delivery.",
+      "category": "Clothes",
+      "price": 50,
+      "location": "New York",
+      "availability": [
+        "Mon-Fri 9am-10pm"
+      ],
+      "contact": "clothesservice@email.com"
+    },
+    {
+      "id": "2db4",
+      "title": "Nails & Hair",
+      "description": " Manicures, pedicures, styling, and treatments.",
+      "category": "Beauty",
+      "price": 40,
+      "location": "New York",
+      "availability": [
+        "Mon-Fri 9am-10pm"
+      ],
+      "contact": "nailsandhair@email.com"
+    },
+    {
+      "id": "331e",
+      "title": "Freelance Graphic Designer",
+      "description": "Logo design, branding, and website graphics.",
+      "category": "Design",
+      "price": 100,
+      "location": "Remote",
+      "availability": [
+        "Mon-Fri 9am-10pm"
+      ],
+      "contact": "designer@email.com"
+    }
+  ]
+}

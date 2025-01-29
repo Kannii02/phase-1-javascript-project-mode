@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoSolo - Service Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GoSolo</h1>
+        <input type="text" id="search" placeholder="Search for a service...">
+        <button id="post-service-btn">Post a Service</button>
+    </header>
+    
+    <main id="service-list">
+        <!-- Services will be dynamically added here -->
+    </main>
+
+    <div id="post-form-container" style="display: none;">
+        <h2>Post a New Service</h2>
+        <form id="post-form">
+            <input type="text" id="title" placeholder="Service Title" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="text" id="location" placeholder="Location" required>
+            <input type="text" id="availability" placeholder="Availability (comma-separated)" required>
+            <input type="email" id="contact" placeholder="Contact Email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
